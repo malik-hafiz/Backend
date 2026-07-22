@@ -2,14 +2,6 @@ import mongoose, { Schema } from "mongoose";
 import bcrypt from "bcrypt"
 
 const userSchema = new Schema({
-
-// name:String,
-// email:String,
-// age:Number,
-// roll:Number,
-// isActive:Boolean,
-// createdAt:new Date().toString()
-//   --- for multiple types
 name:{
     type:String,
     required:[true,"name is required"]
