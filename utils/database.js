@@ -6,6 +6,6 @@ export const connectDb = async () => {
     try {
         const connection = await mangoose.connect(connectionString)
     } catch (error) {
-      
+    
     }
 }
